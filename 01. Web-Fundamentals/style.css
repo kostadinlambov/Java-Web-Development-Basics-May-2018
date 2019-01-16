@@ -1,0 +1,6 @@
+.margin {
+    margin: 15px;
+    padding: 15px;
+    border: 15px solid black;
+    border-radius: 10px;
+}
