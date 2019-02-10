@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MeTube&trade;</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-color-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand h4" href="/">MeTube&trade;</a>
+
+        <div class="collapse navbar-collapse justify-content-end row" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active col-md-3">
+                    <a class="nav-link h5" href="/">Home</a>
+                </li>
+                <li class="nav-item active col-md-3">
+                    <a class="nav-link h5" href="/profile">Profile</a>
+                </li>
+                <li class="nav-item active col-md-3">
+                    <a class="nav-link h5" href="/upload-tube">Upload</a>
+                </li>
+                <li class="nav-item active col-md-3">
+                    <a class="nav-link h5" href="/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="my-2"/>
+    <div class="text-center mt-3">
+        <h4 class="text-info text-center">@Pesho</h4>
+        <h4 class="text-info text-center">(pesho@gmail.com)</h4>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row d-flex flex-column">
+            <table class="table table-hover table-dark">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                ${myTubes}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="my-3"/>
+    <footer class="footer py-3">
+        <div class="container-fluid">
+            <div class="container-fluid text-center">&copy; CopyRight Sanity Web Design Studios 2018. All
+                rights reserved.
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

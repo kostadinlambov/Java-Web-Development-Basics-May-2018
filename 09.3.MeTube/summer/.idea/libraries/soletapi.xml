@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="soletapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/soletapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
