@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="toyote">
+    <output-path>$PROJECT_DIR$/out/artifacts/toyote</output-path>
+    <root id="archive" name="toyote.jar">
+      <element id="module-output" name="toyote" />
+    </root>
+  </artifact>
+</component>

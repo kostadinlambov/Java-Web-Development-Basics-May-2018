@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="summer">
+    <output-path>$PROJECT_DIR$/out/artifacts/summer</output-path>
+    <root id="archive" name="summer.jar">
+      <element id="module-output" name="summer" />
+    </root>
+  </artifact>
+</component>
