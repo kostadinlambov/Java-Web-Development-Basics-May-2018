@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MeTube&trade;</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-color-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand h4" href="/">MeTube&trade;</a>
+
+        <div class="collapse navbar-collapse justify-content-end row" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active col-md-4">
+                    <a class="nav-link h5" href="/">Home</a>
+                </li>
+                <li class="nav-item active col-md-4">
+                    <a class="nav-link h5" href="/login">Login</a>
+                </li>
+                <li class="nav-item active col-md-4">
+                    <a class="nav-link h5" href="/register">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="my-2"/>
+    <div class="text-center mb-3">
+        <h1>Login</h1>
+    </div>
+    <hr class="my-2">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="form-holder text-center">
+                <form class="form-inline" action="/login" method="POST">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label h3 mb-2" for="username">Username</label>
+                            <div class="controls">
+                                <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="control-group">
+                            <label class="control-label h3 mb-2" for="password">Password</label>
+                            <div class="controls">
+                                <input type="password" id="password" name="password" placeholder=""
+                                       class="input-xlarge">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="control-group">
+                            <div class="controls">
+                                <button class="btn btn-info">Login</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr class="my-3"/>
+    <footer class="footer py-3">
+        <div class="container-fluid">
+            <div class="container-fluid text-center">&copy; CopyRight Sanity Web Design Studios 2018. All rights reserved.</div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

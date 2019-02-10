@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javache">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javache.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
