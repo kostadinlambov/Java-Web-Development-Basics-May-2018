@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="broccolina">
+    <output-path>$PROJECT_DIR$/out/artifacts/broccolina</output-path>
+    <root id="archive" name="broccolina.jar">
+      <element id="module-output" name="broccolina" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+textarea {
+    resize:none;
+}
