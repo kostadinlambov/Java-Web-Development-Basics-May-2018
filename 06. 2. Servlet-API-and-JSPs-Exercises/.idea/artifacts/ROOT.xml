@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ROOT">
+    <output-path>$PROJECT_DIR$/classes/artifacts/ROOT</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="javaee-facet-resources" facet="org.softuni/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="org.softuni" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.taglibs:taglibs-standard-impl:1.2.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
